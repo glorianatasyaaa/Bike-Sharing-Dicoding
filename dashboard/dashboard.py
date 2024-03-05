@@ -9,7 +9,7 @@ def load_data(file):
     return df
 
 
-bike_df = pd.read_csv("bike_data.csv")
+bike_df = pd.read_csv("./dashboard/bike_data.csv")
 
 
 bike_df['date'] = pd.to_datetime(bike_df['date'])
